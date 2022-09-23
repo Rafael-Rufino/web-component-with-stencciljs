@@ -1,0 +1,24 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.label {
+  font-size: 1rem;
+  text-align: left;
+  padding-bottom: 4px;
+}
+
+
+.input {
+    height: 54px;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: 1px solid #e3e3e8;
+    margin-bottom: 24px;
+    padding-left: 10px;
+    color: #7C8096
+}

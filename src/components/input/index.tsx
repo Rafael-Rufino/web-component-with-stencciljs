@@ -5,7 +5,7 @@ import { Component, Prop, h } from '@stencil/core';
   styleUrl: 'styles.css',
   shadow: true,
 })
-export class Heading {
+export class Input {
   @Prop() id: string;
   @Prop() label?: string;
   @Prop() type: 'text' | 'number' | 'date' | 'email' | 'password' | 'checkbox';

@@ -5,7 +5,7 @@ import { Component, Prop, h } from '@stencil/core';
   styleUrl: 'styles.css',
   shadow: true,
 })
-export class Heading {
+export class Button {
   @Prop() name: string;
 
   @Prop() onClick: (event: MouseEvent) => void;
